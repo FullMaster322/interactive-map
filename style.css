@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: url("assets/background.svg");
+  background: url("assets/background.svg") 0 no-repeat fixed;
   background-size: cover;
 }
 .upWindow {
@@ -10,19 +10,23 @@ body {
 .upWindowText {
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 30px;
+  background-color: rgb(0, 0, 0);
+  padding: 1%;
 }
 .text1 {
   color: white;
-  font-size: 50px;
-  padding: 5px;
+  font-size: 25px;
+  padding: 1%;
   text-align: center;
+  background-color: rgb(8, 0, 37);
 }
 .text2 {
   color: white;
-  font-size: 45px;
-  padding: 5px;
+  font-size: 20px;
+  padding: 1%;
   text-align: center;
+  background-color: rgb(7, 0, 32);
 }
 .istorijaBelarusi {
   color: white;
@@ -31,15 +35,14 @@ body {
   padding: 1%;
   padding-top: 0.5%;
 
-  font-size: 35px;
+  font-size: 20px;
 }
 .istorijaBelarusiZagolovok {
   color: white;
 
   text-align: center;
   padding: 1%;
-  padding-top: 90%;
-  font-size: 35px;
+  padding-top: 75%;
 }
 .istorijaBelarusiZagolovok1 {
   color: white;
@@ -47,7 +50,7 @@ body {
   text-align: center;
   padding: 1%;
 
-  font-size: 50px;
+  font-size: 25px;
 }
 .belGerb {
   position: absolute;
@@ -79,7 +82,7 @@ svg {
   opacity: 0.2;
 }
 .Minsk:hover {
-  transition: 1s;
+  transition: 1.2s;
   opacity: 0.5;
 
   cursor: pointer;
@@ -88,7 +91,7 @@ svg {
   opacity: 0.2;
 }
 .Vitebsk:hover {
-  transition: 1s;
+  transition: 1.2s;
   opacity: 0.5;
 
   cursor: pointer;
@@ -97,7 +100,7 @@ svg {
   opacity: 0.2;
 }
 .Mogilev:hover {
-  transition: 1s;
+  transition: 1.2s;
   opacity: 0.5;
 
   cursor: pointer;
@@ -106,7 +109,7 @@ svg {
   opacity: 0.2;
 }
 .Brest:hover {
-  transition: 1s;
+  transition: 1.2s;
   opacity: 0.5;
 
   cursor: pointer;
@@ -115,7 +118,7 @@ svg {
   opacity: 0.2;
 }
 .Grodno:hover {
-  transition: 1s;
+  transition: 1.2s;
   opacity: 0.5;
 
   cursor: pointer;
@@ -124,12 +127,13 @@ svg {
   opacity: 0.2;
 }
 .Gomel:hover {
-  transition: 1s;
+  transition: 1.2s;
   opacity: 0.5;
 
   cursor: pointer;
 }
 .BelarusFoto {
+  padding-top: 1%;
   width: 100%;
   height: 100%;
 }
@@ -138,12 +142,14 @@ svg {
   text-align: center;
   background-color: rgb(2, 8, 39);
   padding: 2%;
+  font-size: 25px;
 }
 .textWindowText1 {
   color: white;
   text-align: center;
   background-color: rgb(2, 19, 39);
   padding: 2%;
+  font-size: 25px;
 }
 .gerbMinskOblast {
   padding-left: 2%;
@@ -153,7 +159,7 @@ svg {
 .flagBelarus {
   padding-left: 2%;
   width: 650px;
-  height: 450px;
+  height: 400px;
 }
 .belarusGerb {
   padding-left: 1%;
@@ -191,6 +197,7 @@ svg {
   text-align: center;
   background-color: rgb(2, 10, 51);
   padding: 2%;
+  font-size: 25px;
 }
 .belarusFlag {
   width: 90%;
@@ -202,31 +209,35 @@ svg {
   text-align: center;
   background-color: rgb(21, 2, 51);
   padding: 2%;
-  font-size: 35px;
+  font-size: 25px;
 }
 .interestnieFaktiMinaskajaOblast1 {
   color: white;
   text-align: center;
   background-color: rgb(2, 51, 17);
   padding: 2%;
+  font-size: 25px;
 }
 .interestnieFaktiMinaskajaOblast2 {
   color: white;
   text-align: center;
   background-color: rgb(7, 2, 51);
   padding: 2%;
+  font-size: 25px;
 }
 .interestnieFaktiMinaskajaOblast3 {
   color: white;
   text-align: center;
   background-color: rgb(2, 41, 51);
   padding: 2%;
+  font-size: 25px;
 }
 .interestnieFaktiMinaskajaOblast4 {
   color: white;
   text-align: center;
   background-color: rgb(2, 22, 51);
   padding: 2%;
+  font-size: 25px;
 }
 
 .returnInMain {
@@ -234,8 +245,8 @@ svg {
   padding-bottom: 1%;
   text-decoration: none;
   margin-left: 1%;
-  font-size: 30px;
-  border-radius: 10px;
+  font-size: 20px;
+  border-radius: 5px;
   background-color: rgb(10, 0, 68);
   color: white;
   padding: 1%;
@@ -248,8 +259,8 @@ svg {
   padding-top: 0;
   text-decoration: none;
   margin-left: 1%;
-  font-size: 30px;
-  border-radius: 10px;
+  font-size: 20px;
+  border-radius: 5px;
   background-color: rgb(10, 0, 68);
   color: white;
   padding: 1%;
