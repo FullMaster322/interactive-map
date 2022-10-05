@@ -1,0 +1,260 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: url("assets/background.svg");
+  background-size: cover;
+}
+.upWindow {
+  padding-top: 5%;
+}
+.upWindowText {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.text1 {
+  color: white;
+  font-size: 50px;
+  padding: 5px;
+  text-align: center;
+}
+.text2 {
+  color: white;
+  font-size: 45px;
+  padding: 5px;
+  text-align: center;
+}
+.istorijaBelarusi {
+  color: white;
+  background-color: rgb(0, 0, 56);
+  text-align: center;
+  padding: 1%;
+  padding-top: 0.5%;
+
+  font-size: 35px;
+}
+.istorijaBelarusiZagolovok {
+  color: white;
+
+  text-align: center;
+  padding: 1%;
+  padding-top: 90%;
+  font-size: 35px;
+}
+.istorijaBelarusiZagolovok1 {
+  color: white;
+  background-color: rgb(0, 65, 0);
+  text-align: center;
+  padding: 1%;
+
+  font-size: 50px;
+}
+.belGerb {
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  top: 5px;
+  right: 1px;
+}
+.belFlag {
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  top: 1px;
+  right: 90px;
+}
+
+.map {
+  text-align: center;
+  position: absolute;
+}
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.Minsk {
+  opacity: 0.2;
+}
+.Minsk:hover {
+  transition: 1s;
+  opacity: 0.5;
+
+  cursor: pointer;
+}
+.Vitebsk {
+  opacity: 0.2;
+}
+.Vitebsk:hover {
+  transition: 1s;
+  opacity: 0.5;
+
+  cursor: pointer;
+}
+.Mogilev {
+  opacity: 0.2;
+}
+.Mogilev:hover {
+  transition: 1s;
+  opacity: 0.5;
+
+  cursor: pointer;
+}
+.Brest {
+  opacity: 0.2;
+}
+.Brest:hover {
+  transition: 1s;
+  opacity: 0.5;
+
+  cursor: pointer;
+}
+.Grodno {
+  opacity: 0.2;
+}
+.Grodno:hover {
+  transition: 1s;
+  opacity: 0.5;
+
+  cursor: pointer;
+}
+.Gomel {
+  opacity: 0.2;
+}
+.Gomel:hover {
+  transition: 1s;
+  opacity: 0.5;
+
+  cursor: pointer;
+}
+.BelarusFoto {
+  width: 100%;
+  height: 100%;
+}
+.textWindowText {
+  color: white;
+  text-align: center;
+  background-color: rgb(2, 8, 39);
+  padding: 2%;
+}
+.textWindowText1 {
+  color: white;
+  text-align: center;
+  background-color: rgb(2, 19, 39);
+  padding: 2%;
+}
+.gerbMinskOblast {
+  padding-left: 2%;
+  width: 550px;
+  height: 600px;
+}
+.flagBelarus {
+  padding-left: 2%;
+  width: 650px;
+  height: 450px;
+}
+.belarusGerb {
+  padding-left: 1%;
+  width: 530px;
+  height: 500px;
+  padding-top: 0%;
+}
+.belaz {
+  padding-top: 1%;
+  padding-left: 7%;
+  width: 750px;
+  height: 500px;
+}
+.lekarstwo {
+  padding-top: 1%;
+  padding-left: 7%;
+  width: 750px;
+  height: 500px;
+}
+.belarus {
+  padding-top: 1%;
+  padding-left: 7%;
+  width: 750px;
+  height: 500px;
+}
+.minskajaMarka {
+  padding-top: 1%;
+  padding-left: 7%;
+  width: 750px;
+  height: 500px;
+}
+
+.istorijaMinskojOblasti {
+  color: white;
+  text-align: center;
+  background-color: rgb(2, 10, 51);
+  padding: 2%;
+}
+.belarusFlag {
+  width: 90%;
+  height: 90%;
+  margin-left: 5%;
+}
+.interestnieFakti {
+  color: white;
+  text-align: center;
+  background-color: rgb(21, 2, 51);
+  padding: 2%;
+  font-size: 35px;
+}
+.interestnieFaktiMinaskajaOblast1 {
+  color: white;
+  text-align: center;
+  background-color: rgb(2, 51, 17);
+  padding: 2%;
+}
+.interestnieFaktiMinaskajaOblast2 {
+  color: white;
+  text-align: center;
+  background-color: rgb(7, 2, 51);
+  padding: 2%;
+}
+.interestnieFaktiMinaskajaOblast3 {
+  color: white;
+  text-align: center;
+  background-color: rgb(2, 41, 51);
+  padding: 2%;
+}
+.interestnieFaktiMinaskajaOblast4 {
+  color: white;
+  text-align: center;
+  background-color: rgb(2, 22, 51);
+  padding: 2%;
+}
+
+.returnInMain {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-decoration: none;
+  margin-left: 1%;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: rgb(10, 0, 68);
+  color: white;
+  padding: 1%;
+}
+.returnInMain:hover {
+  transition: 1s;
+  background-color: rgb(6, 68, 0);
+}
+.returnInStart {
+  padding-top: 0;
+  text-decoration: none;
+  margin-left: 1%;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: rgb(10, 0, 68);
+  color: white;
+  padding: 1%;
+}
+.returnInStart:hover {
+  transition: 1s;
+  background-color: rgb(6, 68, 0);
+}
