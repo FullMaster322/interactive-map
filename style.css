@@ -235,10 +235,11 @@ svg {
 }
 
 .returnInMain {
+  position: absolute;
   padding-top: 1%;
   text-decoration: none;
   margin-left: 1%;
-  font-size: 20px;
+  font-size: 30px;
   border-radius: 5px;
   background-color: rgb(10, 0, 68);
   color: white;
@@ -249,10 +250,11 @@ svg {
   background-color: rgb(6, 68, 0);
 }
 .returnInStart {
-  padding-top: 0;
+  position: absolute;
+  padding-top: 1%;
   text-decoration: none;
-  margin-left: 1%;
-  font-size: 20px;
+  right: 1%;
+  font-size: 30px;
   border-radius: 5px;
   background-color: rgb(10, 0, 68);
   color: white;
