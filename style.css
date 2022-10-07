@@ -1,11 +1,11 @@
 body {
   padding: 0;
   margin: 0;
-  background: url("assets/background.svg") 0 no-repeat fixed;
+  background: url("assets/backgroundMinsk.jpg") 0 no-repeat fixed;
   background-size: cover;
 }
 .upWindow {
-  padding-top: 5%;
+  padding-top: 0.5%;
 }
 .upWindowText {
   text-align: center;
@@ -53,18 +53,12 @@ body {
   font-size: 25px;
 }
 .belGerb {
-  position: absolute;
   width: 80px;
   height: 70px;
-  top: 5px;
-  right: 1px;
 }
 .belFlag {
-  position: absolute;
   width: 150px;
   height: 80px;
-  top: 1px;
-  right: 90px;
 }
 
 .map {
@@ -242,7 +236,6 @@ svg {
 
 .returnInMain {
   padding-top: 1%;
-  padding-bottom: 1%;
   text-decoration: none;
   margin-left: 1%;
   font-size: 20px;
