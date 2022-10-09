@@ -10,20 +10,20 @@ body {
 .upWindowText {
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   background-color: rgb(0, 0, 0);
   padding: 1%;
 }
 .text1 {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   padding: 1%;
   text-align: center;
   background-color: rgb(8, 0, 37);
 }
 .text2 {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   padding: 1%;
   text-align: center;
   background-color: rgb(7, 0, 32);
@@ -34,12 +34,10 @@ body {
   text-align: center;
   padding: 1%;
   padding-top: 0.5%;
-
-  font-size: 20px;
+  font-size: 25px;
 }
 .istorijaBelarusiZagolovok {
   color: white;
-
   text-align: center;
   padding: 1%;
   padding-top: 75%;
@@ -49,16 +47,16 @@ body {
   background-color: rgb(0, 65, 0);
   text-align: center;
   padding: 1%;
-
-  font-size: 25px;
+  font-size: 30px;
 }
 .belGerb {
   width: 80px;
-  height: 70px;
+  height: 75px;
 }
 .belFlag {
-  width: 150px;
-  height: 80px;
+  width: 140px;
+  height: 75px;
+  padding-left: 5px;
 }
 
 .map {
@@ -136,15 +134,16 @@ svg {
   text-align: center;
   background-color: rgb(2, 8, 39);
   padding: 2%;
-  font-size: 25px;
+  font-size: 20px;
 }
 .textWindowText1 {
   color: white;
   text-align: center;
   background-color: rgb(2, 19, 39);
   padding: 2%;
-  font-size: 25px;
+  font-size: 20px;
 }
+
 .gerbMinskOblast {
   padding-left: 2%;
   width: 550px;
@@ -191,7 +190,7 @@ svg {
   text-align: center;
   background-color: rgb(2, 10, 51);
   padding: 2%;
-  font-size: 25px;
+  font-size: 20px;
 }
 .belarusFlag {
   width: 90%;
@@ -203,43 +202,42 @@ svg {
   text-align: center;
   background-color: rgb(21, 2, 51);
   padding: 2%;
-  font-size: 25px;
+  font-size: 20px;
 }
 .interestnieFaktiMinaskajaOblast1 {
   color: white;
   text-align: center;
   background-color: rgb(2, 51, 17);
   padding: 2%;
-  font-size: 25px;
+  font-size: 20px;
 }
 .interestnieFaktiMinaskajaOblast2 {
   color: white;
   text-align: center;
   background-color: rgb(7, 2, 51);
   padding: 2%;
-  font-size: 25px;
+  font-size: 20px;
 }
 .interestnieFaktiMinaskajaOblast3 {
   color: white;
   text-align: center;
   background-color: rgb(2, 41, 51);
   padding: 2%;
-  font-size: 25px;
+  font-size: 20px;
 }
 .interestnieFaktiMinaskajaOblast4 {
   color: white;
   text-align: center;
   background-color: rgb(2, 22, 51);
   padding: 2%;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .returnInMain {
-  position: absolute;
   padding-top: 1%;
   text-decoration: none;
   margin-left: 1%;
-  font-size: 30px;
+  font-size: 17px;
   border-radius: 5px;
   background-color: rgb(10, 0, 68);
   color: white;
@@ -250,11 +248,10 @@ svg {
   background-color: rgb(6, 68, 0);
 }
 .returnInStart {
-  position: absolute;
   padding-top: 1%;
   text-decoration: none;
   right: 1%;
-  font-size: 30px;
+  font-size: 17px;
   border-radius: 5px;
   background-color: rgb(10, 0, 68);
   color: white;
@@ -263,4 +260,33 @@ svg {
 .returnInStart:hover {
   transition: 1s;
   background-color: rgb(6, 68, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .istorijaBelarusiZagolovok1 {
+    margin: 20px;
+    font-size: 15px;
+  }
+  .text1 {
+    margin: 20px;
+    font-size: 15px;
+  }
+  .text2 {
+    margin: 20px;
+    font-size: 12px;
+  }
+  .istorijaBelarusi {
+    margin: 20px;
+    font-size: 12px;
+  }
+  .belFlag {
+    padding-left: 5px;
+    width: 70px;
+    height: 35px;
+  }
+  .belGerb {
+    margin-left: 20px;
+    width: 45px;
+    height: 45px;
+  }
 }
