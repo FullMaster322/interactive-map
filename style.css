@@ -134,14 +134,14 @@ svg {
   text-align: center;
   background-color: rgb(2, 8, 39);
   padding: 2%;
-  font-size: 20px;
+  font-size: 25px;
 }
 .textWindowText1 {
   color: white;
   text-align: center;
   background-color: rgb(2, 19, 39);
   padding: 2%;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .gerbMinskOblast {
@@ -190,7 +190,7 @@ svg {
   text-align: center;
   background-color: rgb(2, 10, 51);
   padding: 2%;
-  font-size: 20px;
+  font-size: 25px;
 }
 .belarusFlag {
   width: 90%;
@@ -202,42 +202,42 @@ svg {
   text-align: center;
   background-color: rgb(21, 2, 51);
   padding: 2%;
-  font-size: 20px;
+  font-size: 27px;
 }
 .interestnieFaktiMinaskajaOblast1 {
   color: white;
   text-align: center;
   background-color: rgb(2, 51, 17);
   padding: 2%;
-  font-size: 20px;
+  font-size: 25px;
 }
 .interestnieFaktiMinaskajaOblast2 {
   color: white;
   text-align: center;
   background-color: rgb(7, 2, 51);
   padding: 2%;
-  font-size: 20px;
+  font-size: 25px;
 }
 .interestnieFaktiMinaskajaOblast3 {
   color: white;
   text-align: center;
   background-color: rgb(2, 41, 51);
   padding: 2%;
-  font-size: 20px;
+  font-size: 25px;
 }
 .interestnieFaktiMinaskajaOblast4 {
   color: white;
   text-align: center;
   background-color: rgb(2, 22, 51);
   padding: 2%;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .returnInMain {
   padding-top: 1%;
   text-decoration: none;
   margin-left: 1%;
-  font-size: 17px;
+  font-size: 25px;
   border-radius: 5px;
   background-color: rgb(10, 0, 68);
   color: white;
@@ -251,7 +251,7 @@ svg {
   padding-top: 1%;
   text-decoration: none;
   right: 1%;
-  font-size: 17px;
+  font-size: 25px;
   border-radius: 5px;
   background-color: rgb(10, 0, 68);
   color: white;
@@ -288,5 +288,75 @@ svg {
     margin-left: 20px;
     width: 45px;
     height: 45px;
+  }
+  .interestnieFaktiMinaskajaOblast1 {
+    margin: 20px;
+    font-size: 12px;
+  }
+  .interestnieFaktiMinaskajaOblast2 {
+    margin: 20px;
+    font-size: 12px;
+  }
+  .interestnieFaktiMinaskajaOblast3 {
+    margin: 20px;
+    font-size: 12px;
+  }
+  .interestnieFaktiMinaskajaOblast4 {
+    margin: 20px;
+    font-size: 12px;
+  }
+  .interestnieFakti {
+    font-size: 14px;
+  }
+  .returnInMain {
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  .returnInStart {
+    font-size: 12px;
+  }
+  .istorijaMinskojOblasti {
+    font-size: 12px;
+    margin: 20px;
+  }
+  .textWindowText1 {
+    margin: 20px;
+    font-size: 12px;
+  }
+
+  .textWindowText {
+    margin: 20px;
+    font-size: 12px;
+  }
+  .upWindowText {
+    font-size: 15px;
+  }
+  .belaz {
+    width: 240px;
+    height: 180px;
+  }
+  .belarusFlag {
+    margin-left: 20px;
+    width: 240px;
+    height: 180px;
+  }
+  .gerbMinskOblast {
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  .belarusGerb {
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  .flagBelarus {
+    margin-left: 20px;
+    width: 230px;
+    height: 120px;
+  }
+
+  .map {
+    margin-left: 20px;
   }
 }
