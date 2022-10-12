@@ -261,8 +261,182 @@ svg {
   transition: 1s;
   background-color: rgb(6, 68, 0);
 }
+@media screen and (max-width: 1200px) {
+  .istorijaBelarusiZagolovok1 {
+    font-size: 19px;
+  }
+  .text1 {
+    font-size: 19px;
+  }
+  .text2 {
+    font-size: 16px;
+  }
+  .istorijaBelarusi {
+    font-size: 16px;
+  }
+  .belFlag {
+    padding-left: 5px;
+    width: 70px;
+    height: 35px;
+  }
+  .belGerb {
+    margin-left: 5px;
+    width: 45px;
+    height: 45px;
+  }
+  .interestnieFaktiMinaskajaOblast1 {
+    font-size: 16px;
+  }
+  .interestnieFaktiMinaskajaOblast2 {
+    font-size: 16px;
+  }
+  .interestnieFaktiMinaskajaOblast3 {
+    font-size: 16px;
+  }
+  .interestnieFaktiMinaskajaOblast4 {
+    font-size: 16px;
+  }
+  .interestnieFakti {
+    font-size: 18px;
+  }
+  .returnInMain {
+    font-size: 16px;
+  }
+  .returnInStart {
+    font-size: 16px;
+  }
+  .istorijaMinskojOblasti {
+    font-size: 16px;
+  }
+  .textWindowText1 {
+    font-size: 16px;
+  }
+  .textWindowText {
+    font-size: 16px;
+  }
+  .upWindowText {
+    font-size: 19px;
+  }
+  .belaz {
+    width: 85%;
+    height: 50%;
+  }
+  .belarusFlag {
+    width: 90%;
+    height: 15%;
+  }
+  .gerbMinskOblast {
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 50%;
+    height: 30%;
+  }
+  .belarusGerb {
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 50%;
+    height: 10%;
+  }
+  .flagBelarus {
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 50%;
+    height: 40%;
+  }
 
+  .map {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 768px) {
+  .istorijaBelarusiZagolovok1 {
+    font-size: 17px;
+  }
+  .text1 {
+    font-size: 17px;
+  }
+  .text2 {
+    font-size: 14px;
+  }
+  .istorijaBelarusi {
+    font-size: 14px;
+  }
+  .belFlag {
+    padding-left: 5px;
+    width: 70px;
+    height: 35px;
+  }
+  .belGerb {
+    margin-left: 5px;
+    width: 45px;
+    height: 45px;
+  }
+  .interestnieFaktiMinaskajaOblast1 {
+    font-size: 14px;
+  }
+  .interestnieFaktiMinaskajaOblast2 {
+    font-size: 14px;
+  }
+  .interestnieFaktiMinaskajaOblast3 {
+    font-size: 14px;
+  }
+  .interestnieFaktiMinaskajaOblast4 {
+    font-size: 14px;
+  }
+  .interestnieFakti {
+    font-size: 16px;
+  }
+  .returnInMain {
+    font-size: 14px;
+  }
+  .returnInStart {
+    font-size: 14px;
+  }
+  .istorijaMinskojOblasti {
+    font-size: 14px;
+  }
+  .textWindowText1 {
+    font-size: 14px;
+  }
+  .textWindowText {
+    font-size: 14px;
+  }
+  .upWindowText {
+    font-size: 17px;
+  }
+  .belaz {
+    width: 85%;
+    height: 50%;
+  }
+  .belarusFlag {
+    width: 90%;
+    height: 15%;
+  }
+  .gerbMinskOblast {
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 50%;
+    height: 30%;
+  }
+  .belarusGerb {
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 50%;
+    height: 10%;
+  }
+  .flagBelarus {
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 50%;
+    height: 40%;
+  }
+
+  .map {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .istorijaBelarusiZagolovok1 {
     margin: 20px;
     font-size: 15px;
@@ -332,28 +506,28 @@ svg {
     font-size: 15px;
   }
   .belaz {
-    width: 240px;
-    height: 180px;
+    width: 85%;
+    height: 50%;
   }
   .belarusFlag {
     margin-left: 20px;
-    width: 240px;
-    height: 180px;
+    width: 90%;
+    height: 15%;
   }
   .gerbMinskOblast {
     margin-left: 20px;
-    width: 200px;
-    height: 200px;
+    width: 60%;
+    height: 60%;
   }
   .belarusGerb {
     margin-left: 20px;
-    width: 200px;
-    height: 200px;
+    width: 60%;
+    height: 60%;
   }
   .flagBelarus {
     margin-left: 20px;
-    width: 230px;
-    height: 120px;
+    width: 60%;
+    height: 60%;
   }
 
   .map {
