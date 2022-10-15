@@ -1,17 +1,24 @@
 body {
   padding: 0;
   margin: 0;
-  background: url("assets/backgroundMinsk.jpg") 0 no-repeat fixed;
+  background: url("assets/background.jpg") 0 no-repeat fixed;
   background-size: cover;
+}
+.upButton {
+  position: fixed;
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+  height: 70px;
 }
 .upWindow {
   padding-top: 0.5%;
 }
 .upWindowText {
+  margin-top: 5%;
   text-align: center;
   color: white;
   font-size: 25px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(83, 47, 0);
   padding: 1%;
 }
 .text1 {
@@ -19,18 +26,18 @@ body {
   font-size: 30px;
   padding: 1%;
   text-align: center;
-  background-color: rgb(8, 0, 37);
+  background-color: rgb(83, 47, 0);
 }
 .text2 {
   color: white;
   font-size: 25px;
   padding: 1%;
   text-align: center;
-  background-color: rgb(7, 0, 32);
+  background-color: rgb(27, 27, 27);
 }
 .istorijaBelarusi {
   color: white;
-  background-color: rgb(0, 0, 56);
+  background-color: rgb(27, 27, 27);
   text-align: center;
   padding: 1%;
   padding-top: 0.5%;
@@ -44,7 +51,7 @@ body {
 }
 .istorijaBelarusiZagolovok1 {
   color: white;
-  background-color: rgb(0, 65, 0);
+  background-color: rgb(83, 47, 0);
   text-align: center;
   padding: 1%;
   font-size: 30px;
@@ -132,14 +139,14 @@ svg {
 .textWindowText {
   color: white;
   text-align: center;
-  background-color: rgb(2, 8, 39);
+  background-color: rgb(27, 27, 27);
   padding: 2%;
   font-size: 25px;
 }
 .textWindowText1 {
   color: white;
   text-align: center;
-  background-color: rgb(2, 19, 39);
+  background-color: rgb(27, 27, 27);
   padding: 2%;
   font-size: 25px;
 }
@@ -188,7 +195,7 @@ svg {
 .istorijaMinskojOblasti {
   color: white;
   text-align: center;
-  background-color: rgb(2, 10, 51);
+  background-color: rgb(27, 27, 27);
   padding: 2%;
   font-size: 25px;
 }
@@ -200,46 +207,46 @@ svg {
 .interestnieFakti {
   color: white;
   text-align: center;
-  background-color: rgb(21, 2, 51);
+  background-color: rgb(83, 47, 0);
   padding: 2%;
   font-size: 27px;
 }
 .interestnieFaktiMinaskajaOblast1 {
   color: white;
   text-align: center;
-  background-color: rgb(2, 51, 17);
+  background-color: rgb(27, 27, 27);
   padding: 2%;
   font-size: 25px;
 }
 .interestnieFaktiMinaskajaOblast2 {
   color: white;
   text-align: center;
-  background-color: rgb(7, 2, 51);
+  background-color: rgb(27, 27, 27);
   padding: 2%;
   font-size: 25px;
 }
 .interestnieFaktiMinaskajaOblast3 {
   color: white;
   text-align: center;
-  background-color: rgb(2, 41, 51);
+  background-color: rgb(27, 27, 27);
   padding: 2%;
   font-size: 25px;
 }
 .interestnieFaktiMinaskajaOblast4 {
   color: white;
   text-align: center;
-  background-color: rgb(2, 22, 51);
+  background-color: rgb(27, 27, 27);
   padding: 2%;
   font-size: 25px;
 }
 
 .returnInMain {
-  padding-top: 1%;
+  position: fixed;
   text-decoration: none;
   margin-left: 1%;
   font-size: 25px;
   border-radius: 5px;
-  background-color: rgb(10, 0, 68);
+  background-color: rgb(83, 47, 0);
   color: white;
   padding: 1%;
 }
@@ -248,12 +255,12 @@ svg {
   background-color: rgb(6, 68, 0);
 }
 .returnInStart {
-  padding-top: 1%;
+  position: fixed;
   text-decoration: none;
   right: 1%;
   font-size: 25px;
   border-radius: 5px;
-  background-color: rgb(10, 0, 68);
+  background-color: rgb(83, 47, 0);
   color: white;
   padding: 1%;
 }
@@ -262,6 +269,12 @@ svg {
   background-color: rgb(6, 68, 0);
 }
 @media screen and (max-width: 1200px) {
+  .upButton {
+    position: fixed;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 40px;
+  }
   .istorijaBelarusiZagolovok1 {
     font-size: 19px;
   }
@@ -317,6 +330,9 @@ svg {
   .upWindowText {
     font-size: 19px;
   }
+  .upWindow {
+    padding-top: 3%;
+  }
   .belaz {
     width: 85%;
     height: 50%;
@@ -349,6 +365,15 @@ svg {
   }
 }
 @media screen and (max-width: 768px) {
+  .upButton {
+    position: fixed;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 30px;
+  }
+  .upWindow {
+    padding-top: 5%;
+  }
   .istorijaBelarusiZagolovok1 {
     font-size: 17px;
   }
@@ -437,6 +462,15 @@ svg {
 }
 
 @media screen and (max-width: 400px) {
+  .upButton {
+    position: fixed;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 25px;
+  }
+  .upWindow {
+    padding-top: 7%;
+  }
   .istorijaBelarusiZagolovok1 {
     margin: 20px;
     font-size: 15px;
@@ -488,6 +522,7 @@ svg {
   }
   .returnInStart {
     font-size: 12px;
+    margin-right: 20px;
   }
   .istorijaMinskojOblasti {
     font-size: 12px;
