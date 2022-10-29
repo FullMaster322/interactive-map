@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Могилевская Область</title>
     <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" media="all" href="../../wow-animate/animate.css" />
   </head>
 
   <body>
@@ -16,11 +17,13 @@
       >
     </div>
     <div class="upWindow">
-      <h1 class="upWindowText">Добро пожаловать в Могилёвскую область!</h1>
+      <h1 class="upWindowText fadeInLeft wow">
+        Добро пожаловать в Могилёвскую область!
+      </h1>
     </div>
     <div class="textWindow">
-      <h1 class="textWindowText">
-        Географическая информация<br />
+      <h1 class="upWindowText fadeInDown wow">Географическая информация</h1>
+      <h1 class="textWindowText fadeInLeft wow">
         Могилевская область – самый восточный регион Беларуси, пограничный с
         Российской Федерацией. Восточные соседи региона – Смоленская и Брянская
         области России. На севере область граничит с Витебской, на западе – с
@@ -39,8 +42,8 @@
     <img src="../../assets/flagBelarus.png" class="flagBelarus" />
 
     <div>
-      <h1 class="textWindowText1">
-        Промышленность<br />
+      <h1 class="upWindowText fadeInLeft wow">Промышленность</h1>
+      <h1 class="textWindowText1 fadeInDown wow">
         Могилев является современным крупным промышленным центром Республики
         Беларусь. Основу промышленного комплекса формируют предприятия,
         осуществляющие производство химических продуктов, продуктов питания,
@@ -60,8 +63,10 @@
     <img src="assets/image3.jpg" class="belaz" />
     <img src="assets/image4.jpg" class="belaz" />
     <div>
-      <h1 class="istorijaMinskojOblasti">
-        Как появилась Могилёвская область?<br />
+      <h1 class="upWindowText fadeInLeft wow">
+        Как появилась Могилёвская область?
+      </h1>
+      <h1 class="istorijaMinskojOblasti fadeInUp wow">
         Заселение территории области началось еще в среднем палеолите (100-40
         тыс. лет назад) неандертальцами (Homo neanderthalensis), о чем
         свидетельствует их хозяйственная деятельность около деревни Обидовичи
@@ -92,7 +97,7 @@
 
     <img src="../../assets/footer.png" class="belarusFlag" />
     <div class="interesnieFakti">
-      <h1 class="interestnieFakti">Интерестные факты</h1>
+      <h1 class="interestnieFakti bounceInUp wow">Интерестные факты</h1>
       <h1 class="interestnieFaktiMinaskajaOblast1">
         Могилевская область – одна из самых маленьких в республике по площади.
         Уступает последнее место лишь Гродненщине.
@@ -111,5 +116,9 @@
       </h1>
     </div>
     <br />
+    <script src="../../wow-animate/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

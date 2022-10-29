@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Интерактивная карта</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="all" href="wow-animate/animate.css">
   </head>
 
   <body>
     <div class="upWindow">
       <img
-      class="belGerb"
+      class="belGerb fadeInLeftBig wow"
       src="assets/belarusGerb.webp"
     />
-    <img class="belFlag" src="assets/flagBelarus.png" />
-      <h1 class="text1">Добро пожаловать!</h1>
-      <h1 class="text2">
+    <img class="belFlag fadeInRightBig wow" src="assets/flagBelarus.png" />
+      <h1 class="text1 fadeInDown wow">Добро пожаловать!</h1>
+      <h1 class="text2 fadeInDown wow">
         Здесь вы можете путешествовать по Беларуси с помощью интерактивной карты
       </h1>
     </div>
@@ -49,13 +50,13 @@
         </a>
         </svg>
 
-    <img    class="BelarusFoto" src="assets/Belarus.svg" />
+      <img class="BelarusFoto fadeInLeftBig wow" src="assets/Belarus.svg" />
     </div>
 
     <div>
       <h1 class="istorijaBelarusiZagolovok"></h1>
-      <h1 class="istorijaBelarusiZagolovok1">История Беларуси</h1>
-      <h1 class="istorijaBelarusi">
+      <h1 class="istorijaBelarusiZagolovok1 fadeInDown wow">История Беларуси</h1>
+      <h1 class="istorijaBelarusi fadeInUp wow">
         Первый человек на территории Беларуси появился в далекие-далекие
         времена. Жили наши предки на берегах рек и озер. Занимались земледелием,
         рыболовством и охотой на диких зверей. Постепенно территорию Беларуси
@@ -115,5 +116,7 @@
         Беларусь.
       </h1>
     </div>
+    <script src="wow-animate/wow.min.js"></script>
+    <script>new WOW().init();</script>
   </body>
 </html>

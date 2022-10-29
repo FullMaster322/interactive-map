@@ -47,7 +47,7 @@ body {
   color: white;
   text-align: center;
   padding: 1%;
-  padding-top: 75%;
+  padding-top: 55%;
 }
 .istorijaBelarusiZagolovok1 {
   color: white;
@@ -249,9 +249,9 @@ svg {
   background-color: rgb(83, 47, 0);
   color: white;
   padding: 1%;
+  transition: 1s;
 }
 .returnInMain:hover {
-  transition: 1s;
   background-color: rgb(6, 68, 0);
 }
 .returnInStart {
@@ -263,9 +263,9 @@ svg {
   background-color: rgb(83, 47, 0);
   color: white;
   padding: 1%;
+  transition: 1s;
 }
 .returnInStart:hover {
-  transition: 1s;
   background-color: rgb(6, 68, 0);
 }
 @media screen and (max-width: 1200px) {

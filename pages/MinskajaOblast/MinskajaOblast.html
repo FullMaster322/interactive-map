@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Минская Область</title>
     <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" media="all" href="../../wow-animate/animate.css" />
   </head>
 
   <body>
@@ -14,11 +15,13 @@
       <a class="returnInStart" href="MinskajaOblast.html">вернуться в начало</a>
     </div>
     <div class="upWindow">
-      <h1 class="upWindowText">Добро пожаловать в Минскую область!</h1>
+      <h1 class="upWindowText fadeInLeft wow">
+        Добро пожаловать в Минскую область!
+      </h1>
     </div>
     <div class="textWindow">
-      <h1 class="textWindowText">
-        Географическая информация<br />
+      <h1 class="upWindowText fadeInDown wow">Географическая информация</h1>
+      <h1 class="textWindowText fadeInUp wow">
         Минская область – центральная, самая большая по территории область
         Республики Беларусь, граничит со всеми областями республики. Площадь –
         39,9 тыс. квадратных километров, наибольшая протяженность с севера на юг
@@ -39,8 +42,8 @@
     <img src="../../assets/flagBelarus.png" class="flagBelarus" />
 
     <div>
-      <h1 class="textWindowText1">
-        Промышленность<br />
+      <h1 class="upWindowText fadeInLeft wow">Промышленность</h1>
+      <h1 class="textWindowText1 fadeInDown wow">
         Промышленными организациями Минской области выпускаются такие важнейшие
         виды продукции областного и республиканского значения различных отраслей
         обрабатывающей промышленности, как калийные удобрения, легковые
@@ -60,8 +63,10 @@
     <img src="assets/image5.jpeg" class="belaz" />
     <img src="assets/image6.jpeg" class="belaz" />
     <div>
-      <h1 class="istorijaMinskojOblasti">
-        Как появилась Минская область?<br />
+      <h1 class="upWindowText fadeInLeft wow">
+        Как появилась Минская Область?
+      </h1>
+      <h1 class="istorijaMinskojOblasti fadeInUp wow">
         Исторические корни Минщины уходят вглубь веков: около 950 лет назад на
         берегах Свислочи появились первые поселения. Они дали начало название
         городу Минску, а впоследствии - и столичной Минской области. В
@@ -87,7 +92,7 @@
 
     <img src="../../assets/footer.png" class="belarusFlag" />
     <div class="interesnieFakti">
-      <h1 class="interestnieFakti">Интерестные факты</h1>
+      <h1 class="interestnieFakti bounceInUp wow">Интерестные факты</h1>
       <h1 class="interestnieFaktiMinaskajaOblast1">
         Минская область - самая чистая в Беларуси
       </h1>
@@ -105,5 +110,9 @@
       </h1>
     </div>
     <br />
+    <script src="../../wow-animate/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

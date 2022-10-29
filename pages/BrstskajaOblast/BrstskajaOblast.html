@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Брестская Область</title>
     <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" media="all" href="../../wow-animate/animate.css" />
   </head>
 
   <body>
@@ -16,11 +17,13 @@
       >
     </div>
     <div class="upWindow">
-      <h1 class="upWindowText">Добро пожаловать в Брестскую область!</h1>
+      <h1 class="upWindowText fadeInLeft wow">
+        Добро пожаловать в Брестскую область!
+      </h1>
     </div>
     <div class="textWindow">
-      <h1 class="textWindowText">
-        Географическая информация<br />
+      <h1 class="upWindowText fadeInDown wow">Географическая информация</h1>
+      <h1 class="textWindowText fadeInUp wow">
         Область расположена на юго-западе страны, на юге граничит с Украиной, на
         западе - с Польшей. На территории Брестчины находится крайняя западная
         точка страны - на реке Буг к юго-западу от города Высокое. Ее координаты
@@ -36,8 +39,8 @@
     <img src="../../assets/flagBelarus.png" class="flagBelarus" />
 
     <div>
-      <h1 class="textWindowText1">
-        Промышленность<br />
+      <h1 class="upWindowText fadeInLeft wow">Промышленность</h1>
+      <h1 class="textWindowText1 fadeInDown wow">
         Здесь расположены предприятия по выпуску продуктов питания, развиты
         машиностроение, текстильное и швейное производство, производство мебели
         и строительных материалов. Промышленность региона обеспечивает 26,6%
@@ -57,8 +60,10 @@
     <img src="assets/image3.jpg" class="belaz" />
     <img src="assets/image4.jpg" class="belaz" />
     <div>
-      <h1 class="istorijaMinskojOblasti">
-        Как появилась Брестская область?<br />
+      <h1 class="upWindowText fadeInLeft wow">
+        Как появилась Брестская область?
+      </h1>
+      <h1 class="istorijaMinskojOblasti fadeInUp wow">
         На протяжении столетий Брест не раз становился частью разных государств,
         разрушался и восстанавливался вновь. Город по сей день хранит
         архитектуру разных эпох: от древнего городища Берестья до зданий
@@ -87,7 +92,7 @@
 
     <img src="../../assets/footer.png" class="belarusFlag" />
     <div class="interesnieFakti">
-      <h1 class="interestnieFakti">Интерестные факты</h1>
+      <h1 class="interestnieFakti bounceInUp wow">Интерестные факты</h1>
       <h1 class="interestnieFaktiMinaskajaOblast1">
         В конце 19 века железнодорожный вокзал Бреста считался лучшим в империи.
       </h1>
@@ -105,5 +110,9 @@
       </h1>
     </div>
     <br />
+    <script src="../../wow-animate/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

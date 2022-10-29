@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Гродненская Область</title>
     <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" media="all" href="../../wow-animate/animate.css" />
   </head>
 
   <body>
@@ -16,11 +17,13 @@
       >
     </div>
     <div class="upWindow">
-      <h1 class="upWindowText">Добро пожаловать в Гродненскую область!</h1>
+      <h1 class="upWindowText fadeInLeft wow">
+        Добро пожаловать в Гродненскую область!
+      </h1>
     </div>
     <div class="textWindow">
-      <h1 class="textWindowText">
-        Географическая информация<br />
+      <h1 class="upWindowText fadeInDown wow">Географическая информация</h1>
+      <h1 class="textWindowText fadeInUp wow">
         Гродненская область - самый маленький регион страны, ее площадь
         составляет 25,1 тыс. кв.км. На западе граничит с Польшей, на севере - с
         Литвой. В Гродненскую область входят: 17 районов (Берестовицкий,
@@ -44,8 +47,8 @@
     <img src="../../assets/flagBelarus.png" class="flagBelarus" />
 
     <div>
-      <h1 class="textWindowText1">
-        Промышленность<br />
+      <h1 class="upWindowText fadeInLeft wow">Промышленность</h1>
+      <h1 class="textWindowText1 fadeInDown wow">
         В Гродненской области доминирующим является производство продуктов
         питания, напитков и табачных изделий. Среди других значимых отраслей
         промышленности - производство химических продкутов, дервообработка,
@@ -62,8 +65,10 @@
     <img src="assets/image3.jpg" class="belaz" />
     <img src="assets/image4.jpg" class="belaz" />
     <div>
-      <h1 class="istorijaMinskojOblasti">
-        Как появилась Гродненская область?<br />
+      <h1 class="upWindowText fadeInLeft wow">
+        Как появилась Гродненская область?
+      </h1>
+      <h1 class="istorijaMinskojOblasti fadeInUp wow">
         История Гродненщины уходит корнями в седую древность. Ее территория была
         заселена людьми с позднего палеолита. Наиболее древние стоянки
         находились на озере Свитязь, возле деревень Черешля Новогрудского,
@@ -89,7 +94,7 @@
 
     <img src="../../assets/footer.png" class="belarusFlag" />
     <div class="interesnieFakti">
-      <h1 class="interestnieFakti">Интерестные факты</h1>
+      <h1 class="interestnieFakti bounceInUp wow">Интерестные факты</h1>
       <h1 class="interestnieFaktiMinaskajaOblast1">
         Гродненцы меньше всего разводятся
       </h1>
@@ -105,5 +110,9 @@
       </h1>
     </div>
     <br />
+    <script src="../../wow-animate/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

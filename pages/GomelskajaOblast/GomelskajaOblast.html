@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Гомельская Область</title>
     <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" media="all" href="../../wow-animate/animate.css" />
   </head>
 
   <body>
@@ -16,11 +17,13 @@
       >
     </div>
     <div class="upWindow">
-      <h1 class="upWindowText">Добро пожаловать в Гомельскую область!</h1>
+      <h1 class="upWindowText fadeInLeft wow">
+        Добро пожаловать в Гомельскую область!
+      </h1>
     </div>
     <div class="textWindow">
-      <h1 class="textWindowText">
-        Географическая информация<br />
+      <h1 class="upWindowText fadeInDown wow">Географическая информация</h1>
+      <h1 class="textWindowText fadeInUp wow">
         Гомельская область расположена в юго-восточной части Беларуси. На ее
         территории находится крайняя южная точка страны - на реке Днепр к югу от
         городского поселка Комарин Брагинского района. Ее координаты - 51°16'
@@ -38,8 +41,8 @@
     <img src="../../assets/flagBelarus.png" class="flagBelarus" />
 
     <div>
-      <h1 class="textWindowText1">
-        Промышленность<br />
+      <h1 class="upWindowText fadeInLeft wow">Промышленность</h1>
+      <h1 class="textWindowText1 fadeInDown wow">
         Гомельская область – крупнейший индустриальный регион страны. В ней
         развита топливная и металлургическая, машиностроительная и
         металлообрабатывающая, деревообрабатывающая и целлюлозно-бумажная,
@@ -53,8 +56,10 @@
     <img src="assets/image3.jpg" class="belaz" />
     <img src="assets/image4.jpg" class="belaz" />
     <div>
-      <h1 class="istorijaMinskojOblasti">
-        Как появилась Гомельская область?<br />
+      <h1 class="upWindowText fadeInLeft wow">
+        Как появилась Гомельская область?
+      </h1>
+      <h1 class="istorijaMinskojOblasti fadeInUp wow">
         Человек начал обживать территорию современной Гомельской области в эпоху
         палеолита. Следы стоянок родовых общин, которые существовали 23-26 тыс.
         лет назад, обнаружены в Чечерском (д. Бердыж) и Калинковичском (д.
@@ -206,7 +211,7 @@
 
     <img src="../../assets/footer.png" class="belarusFlag" />
     <div class="interesnieFakti">
-      <h1 class="interestnieFakti">Интерестные факты</h1>
+      <h1 class="interestnieFakti bounceInUp wow">Интерестные факты</h1>
       <h1 class="interestnieFaktiMinaskajaOblast1">
         Гомельщина простирается на юго-востоке Беларуси, поэтому ее жители
         раньше всех встречают рассвет.
@@ -223,5 +228,9 @@
       </h1>
     </div>
     <br />
+    <script src="../../wow-animate/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
