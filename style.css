@@ -1,14 +1,101 @@
-body {
-  padding: 0;
-  margin: 0;
-  background: url("assets/background.svg") 0 no-repeat fixed;
-  background-size: cover;
+.dostoprimechatelnosiImg {
+  width: 100%;
 }
+
+.dostoprimechatelnostiText {
+  position: absolute;
+  background-color: #1f1f1f;
+  width: 100%;
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.dostoprimechatelnostiText1 {
+  color: white;
+  background-color: rgb(83, 47, 0);
+  font-size: 30px;
+  text-align: center;
+  padding: 1%;
+}
+
+.searhContent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.windowUpText {
+  margin-top: 0;
+  color: white;
+  text-align: center;
+  background-color: #414141;
+}
+.imgFromSearh {
+  width: 98%;
+  margin: 1%;
+  margin-top: 30px;
+}
+.searhContent li {
+  list-style-type: none;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #636363;
+  transition: 1s;
+  cursor: pointer;
+  background-color: #444444;
+  color: white;
+  font-size: 25px;
+}
+.searhContent li a {
+  color: white;
+  text-decoration: none;
+}
+.searhContent li:hover {
+  background-color: #6200ff;
+}
+.searhContent ul {
+  background-color: #414141;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  opacity: 0.95;
+  border-radius: 5px;
+  overflow-y: scroll;
+  height: 550px;
+}
+.elastic li.hide {
+  display: none;
+}
+.elastic li.mark {
+  font-weight: bold;
+}
+.d1 {
+  background: #505050;
+  text-align: center;
+  margin-top: 2%;
+}
+.d1 input {
+  width: 50%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #424242;
+  border-radius: 5px;
+  outline: none;
+  background: #ffffff;
+  color: black;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+
 .upButton {
   position: fixed;
   background-color: rgb(27, 27, 27);
   width: 100%;
   height: 70px;
+  z-index: 1;
 }
 .upWindow {
   padding-top: 0.5%;
@@ -47,7 +134,7 @@ body {
   color: white;
   text-align: center;
   padding: 1%;
-  padding-top: 55%;
+  padding-top: 10%;
 }
 .istorijaBelarusiZagolovok1 {
   color: white;
@@ -68,7 +155,7 @@ body {
 
 .map {
   text-align: center;
-  position: absolute;
+  position: relative;
 }
 svg {
   position: absolute;
@@ -269,6 +356,25 @@ svg {
   background-color: rgb(6, 68, 0);
 }
 @media screen and (max-width: 1200px) {
+  .dostoprimechatelnostiText1 {
+    font-size: 16px;
+  }
+  .dostoprimechatelnostiText {
+    font-size: 10px;
+  }
+  .searhContent li {
+    font-size: 16px;
+  }
+  .d1 input {
+    height: 30px;
+    font-size: 15px;
+  }
+  .d1 button {
+    border: none;
+    background: #9900ff;
+    font-size: 17px;
+    padding: 5px;
+  }
   .upButton {
     position: fixed;
     background-color: rgb(27, 27, 27);
@@ -365,6 +471,30 @@ svg {
   }
 }
 @media screen and (max-width: 768px) {
+  .dostoprimechatelnostiText1 {
+    font-size: 14px;
+  }
+  .dostoprimechatelnostiText {
+    font-size: 10px;
+  }
+  .searhContent {
+    width: 95%;
+  }
+  .searhContent li {
+    font-size: 14px;
+  }
+  .searhContent ul {
+    height: 250px;
+  }
+  .d1 input {
+    height: 20px;
+    font-size: 12px;
+  }
+  .d1 button {
+    background: #9900ff;
+    font-size: 12px;
+    padding: 5px;
+  }
   .upButton {
     position: fixed;
     background-color: rgb(27, 27, 27);
@@ -462,6 +592,43 @@ svg {
 }
 
 @media screen and (max-width: 400px) {
+  .dostoprimechatelnostiText1 {
+    font-size: 12px;
+  }
+  .dostoprimechatelnostiText {
+    left: 0;
+    font-size: 8px;
+  }
+  .dostoprimechatelnosti {
+    margin: 20px;
+  }
+  .imgFromSearh {
+    margin-left: 20px;
+    width: 87%;
+  }
+  .searhContent {
+    width: 95%;
+    margin: 20px;
+  }
+  .searhContent li {
+    font-size: 12px;
+  }
+  .searhContent ul {
+    height: 200px;
+  }
+  .d1 {
+    margin-left: 20px;
+  }
+  .d1 input {
+    height: 20px;
+    font-size: 12px;
+  }
+  .d1 button {
+    border: none;
+    background: #9900ff;
+    font-size: 12px;
+    padding: 5px;
+  }
   .upButton {
     position: fixed;
     background-color: rgb(27, 27, 27);
@@ -472,19 +639,19 @@ svg {
     padding-top: 7%;
   }
   .istorijaBelarusiZagolovok1 {
-    margin: 20px;
+    margin-left: 20px;
     font-size: 15px;
   }
   .text1 {
-    margin: 20px;
+    margin-left: 20px;
     font-size: 15px;
   }
   .text2 {
-    margin: 20px;
+    margin-left: 20px;
     font-size: 12px;
   }
   .istorijaBelarusi {
-    margin: 20px;
+    margin-left: 20px;
     font-size: 12px;
   }
   .belFlag {

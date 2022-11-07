@@ -7,6 +7,14 @@
     <title>Интерактивная карта</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="all" href="wow-animate/animate.css">
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background: url("assets/background.svg") 0 no-repeat fixed;
+        background-size: cover;
+      }
+   </style>
   </head>
 
   <body>
@@ -52,7 +60,36 @@
 
       <img class="BelarusFoto fadeInLeftBig wow" src="assets/Belarus.svg" />
     </div>
-
+    <h1 class="text2 fadeInDown wow">
+      А также воспользваться системой "поиск", при помощи которой вы можете узнавать подробности о различных достопримечательностях Беларуси
+    </h1>
+    <div class="d1">
+      <form>
+      <input type="text" placeholder="поиск" id = "elastic">
+      
+      </form>
+    </div>
+    <div class="searhContent">
+      <ul class="elastic" id="el">
+        <a href="pages/searh/BrestskajaKrepost.html"><li>Брестская крепость</li></a>
+        <a href="pages/searh/linijaStalina.html"><li>Историко-культурный комплекс «Линия Сталина»</li></a>
+        <a href="pages/searh/MirskijZamok.html"><li>Мирский замок</li></a>
+        <a href="pages/searh/bibliotek.html"><li>Национальная библиотека</li></a>
+        <a href="pages/searh/BelowesPucha.html"><li>Национальный парк «Беловежская пуща»</li></a>
+        <a href="pages/searh/Hatin.html"><li>Мемориальный комплекс «Хатынь»</li></a>
+        <a href="pages/searh/sofijskijSobor.html"><li>Софийский собор</li></a>
+        <a href="pages/searh/slavjanskijBazar.html"><li>Славянский базар</li></a>
+        <a href="pages/searh/braslavskieOzera.html"><li>Браславские озёра</li></a>
+        <a href="pages/searh/SovetskajaUliza.html"><li>Советская улица</li></a>
+        <a href="pages/searh/KrasniBereg.html"><li>Детский конслагерь красный берег</li></a>
+        <a href="pages/searh/LidskijZamok.html"><li>Лидский замок</li></a>
+        <a href="pages/searh/TeatrMogilev.html"><li>Могилёвский драматический театр</li></a>
+        <a href="pages/searh/sofijskijSobor.html"><li>Мемориальный комплекс "Буйничское поле"</li></a>
+        <a href="pages/searh/KamenezkajaBachna.html"><li>Каменецкая башня</li></a>
+        <a href="pages/searh/AnsamblGomel.html"><li>Гомельский дворцово-парковый ансамбль Румянцевых-паскевичей</li></a>
+        <a href="pages/searh/BachnaObosrenia.html"><li>Башня обозрения</li></a>
+      </ul>
+    </div>
     <div>
       <h1 class="istorijaBelarusiZagolovok"></h1>
       <h1 class="istorijaBelarusiZagolovok1 fadeInDown wow">История Беларуси</h1>
@@ -116,6 +153,7 @@
         Беларусь.
       </h1>
     </div>
+    <script src="./javascript/index.js"></script>
     <script src="wow-animate/wow.min.js"></script>
     <script>new WOW().init();</script>
   </body>
