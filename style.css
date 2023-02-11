@@ -1,11 +1,13 @@
 .dostoprimechatelnosiImg {
   width: 100%;
+  margin-top: 100px;
 }
 
 .dostoprimechatelnostiText {
   position: absolute;
   background-color: #1f1f1f;
   width: 100%;
+
   margin: 0;
   font-size: 20px;
   color: white;
@@ -20,9 +22,11 @@
 }
 
 .searhContent {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 55%;
+  margin-top: 0;
 }
 .windowUpText {
   margin-top: 0;
@@ -104,7 +108,7 @@
   margin-top: 5%;
   text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 35px;
   background-color: rgb(83, 47, 0);
   padding: 1%;
 }
@@ -156,6 +160,7 @@
 .map {
   text-align: center;
   position: relative;
+  width: 100%;
 }
 svg {
   position: absolute;
@@ -356,6 +361,10 @@ svg {
   background-color: rgb(6, 68, 0);
 }
 @media screen and (max-width: 1200px) {
+  .dostoprimechatelnosiImg {
+    width: 100%;
+    margin-top: 50px;
+  }
   .dostoprimechatelnostiText1 {
     font-size: 16px;
   }
@@ -471,6 +480,10 @@ svg {
   }
 }
 @media screen and (max-width: 768px) {
+  .dostoprimechatelnosiImg {
+    width: 100%;
+    margin-top: 45px;
+  }
   .dostoprimechatelnostiText1 {
     font-size: 14px;
   }
@@ -592,6 +605,10 @@ svg {
 }
 
 @media screen and (max-width: 400px) {
+  .dostoprimechatelnosiImg {
+    width: 100%;
+    margin-top: 40px;
+  }
   .dostoprimechatelnostiText1 {
     font-size: 12px;
   }
@@ -604,20 +621,27 @@ svg {
   }
   .imgFromSearh {
     margin-left: 20px;
+    margin-right: 20px;
     width: 87%;
   }
   .searhContent {
-    width: 95%;
-    margin: 20px;
+    margin-left: 20px;
+    width: 90%;
+    text-align: center;
   }
   .searhContent li {
     font-size: 12px;
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    padding: 0.5%;
   }
   .searhContent ul {
+    margin-right: 20px;
     height: 200px;
   }
   .d1 {
-    margin-left: 20px;
+    width: 100%;
   }
   .d1 input {
     height: 20px;
@@ -639,18 +663,22 @@ svg {
     padding-top: 7%;
   }
   .istorijaBelarusiZagolovok1 {
+    margin-right: 20px;
     margin-left: 20px;
     font-size: 15px;
   }
   .text1 {
+    margin-right: 20px;
     margin-left: 20px;
     font-size: 15px;
   }
   .text2 {
+    margin-right: 20px;
     margin-left: 20px;
     font-size: 12px;
   }
   .istorijaBelarusi {
+    margin-right: 20px;
     margin-left: 20px;
     font-size: 12px;
   }
@@ -733,6 +761,9 @@ svg {
   }
 
   .map {
-    margin-left: 20px;
+    width: 90%;
+
+    display: block;
+    margin-left: 10px;
   }
 }
