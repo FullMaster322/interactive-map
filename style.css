@@ -44,22 +44,22 @@
   margin-top: 15px;
   padding: 5px;
   border-radius: 5px;
-  border: 2px solid #636363;
+
   transition: 1s;
   cursor: pointer;
-  background-color: #444444;
-  color: white;
+
+  color: rgb(255, 255, 255);
   font-size: 25px;
 }
 .searhContent li a {
   color: white;
-  text-decoration: none;
 }
 .searhContent li:hover {
-  background-color: #6200ff;
+  background-color: #9e9e9e;
+  color: rgb(0, 0, 0);
 }
 .searhContent ul {
-  background-color: #414141;
+  background-color: rgb(51, 51, 51);
   padding-right: 25px;
   padding-top: 5px;
   padding-bottom: 10px;
@@ -72,12 +72,14 @@
   display: none;
 }
 .elastic li.mark {
-  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .d1 {
   background: #505050;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 5%;
+  padding-bottom: 1%;
 }
 .d1 input {
   width: 50%;
@@ -89,7 +91,7 @@
   background: #ffffff;
   color: black;
   font-size: 20px;
-  margin-top: 5px;
+  margin-top: 1%;
   margin-bottom: 5px;
   transition: 0.3s;
 }
@@ -114,14 +116,14 @@
 }
 .text1 {
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   padding: 1%;
   text-align: center;
   background-color: rgb(83, 47, 0);
 }
 .text2 {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   padding: 1%;
   text-align: center;
   background-color: rgb(27, 27, 27);
