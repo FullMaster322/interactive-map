@@ -1,8 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
 .dostoprimechatelnosiImg {
   width: 100%;
   margin-top: 100px;
 }
-
+.dostoprimechatelnosti {
+  margin-top: 10%;
+}
 .dostoprimechatelnostiText {
   position: absolute;
   background-color: #1f1f1f;
@@ -16,9 +21,11 @@
 .dostoprimechatelnostiText1 {
   color: white;
   background-color: rgb(83, 47, 0);
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   padding: 1%;
+  margin-top: 15%;
+  margin-bottom: 0;
 }
 
 .searhContent {
@@ -298,12 +305,17 @@ svg {
   height: 90%;
   margin-left: 5%;
 }
-.interestnieFakti {
+.interesnieFakti {
+  background-color: rgb(27, 27, 27);
+  opacity: 0.9;
+}
+.interestnieFaktiText {
   color: white;
   text-align: center;
   background-color: rgb(83, 47, 0);
   padding: 2%;
-  font-size: 27px;
+  font-size: 35px;
+  margin-top: 5%;
 }
 .interestnieFaktiMinaskajaOblast1 {
   color: white;
@@ -363,6 +375,9 @@ svg {
   background-color: rgb(6, 68, 0);
 }
 @media screen and (max-width: 1200px) {
+  .interestnieFaktiText {
+    font-size: 18px;
+  }
   .dostoprimechatelnosiImg {
     width: 100%;
     margin-top: 50px;
@@ -482,6 +497,9 @@ svg {
   }
 }
 @media screen and (max-width: 768px) {
+  .interestnieFaktiText {
+    font-size: 15px;
+  }
   .dostoprimechatelnosiImg {
     width: 100%;
     margin-top: 45px;
@@ -607,6 +625,9 @@ svg {
 }
 
 @media screen and (max-width: 400px) {
+  .interestnieFaktiText {
+    font-size: 12px;
+  }
   .d1 input {
     margin-top: 2%;
     width: 80%;
