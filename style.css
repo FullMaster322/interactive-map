@@ -48,7 +48,7 @@ html {
 }
 .searhContent li {
   list-style-type: none;
-  margin-top: 15px;
+
   padding: 5px;
   border-radius: 5px;
 
@@ -62,7 +62,7 @@ html {
   color: white;
 }
 .searhContent li:hover {
-  background-color: #9e9e9e;
+  background-color: #dddddd;
   color: rgb(0, 0, 0);
 }
 .searhContent ul {
@@ -79,14 +79,14 @@ html {
   display: none;
 }
 .elastic li.mark {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 .d1 {
-  background: #505050;
+  background: #686868;
   text-align: center;
   margin-top: 5%;
   padding-bottom: 1%;
+  opacity: 0.9;
 }
 .d1 input {
   width: 50%;
@@ -112,6 +112,13 @@ html {
 }
 .upWindow {
   padding-top: 0.5%;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+}
+.upWindow1 {
+  padding-top: 0.5%;
 }
 .upWindowText {
   margin-top: 5%;
@@ -122,11 +129,17 @@ html {
   padding: 1%;
 }
 .text1 {
-  color: white;
-  font-size: 55px;
-  padding: 1%;
+  margin-top: 30vh;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  mix-blend-mode: multiply;
   text-align: center;
-  background-color: rgb(83, 47, 0);
 }
 .text2 {
   color: white;
@@ -159,6 +172,7 @@ html {
 .belGerb {
   width: 80px;
   height: 75px;
+  margin-left: 10px;
 }
 .belFlag {
   width: 145px;
@@ -462,7 +476,7 @@ svg {
   .upWindowText {
     font-size: 19px;
   }
-  .upWindow {
+  .upWindow1 {
     padding-top: 3%;
   }
   .belaz {
@@ -534,7 +548,7 @@ svg {
     width: 100%;
     height: 30px;
   }
-  .upWindow {
+  .upWindow1 {
     padding-top: 5%;
   }
   .istorijaBelarusiZagolovok1 {
@@ -639,7 +653,7 @@ svg {
   }
   .dostoprimechatelnosiImg {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 25px;
   }
   .dostoprimechatelnostiText1 {
     font-size: 12px;
@@ -648,9 +662,7 @@ svg {
     left: 0;
     font-size: 8px;
   }
-  .dostoprimechatelnosti {
-    margin: 20px;
-  }
+
   .imgFromSearh {
     margin-left: 20px;
     margin-right: 20px;
@@ -691,7 +703,7 @@ svg {
     width: 100%;
     height: 25px;
   }
-  .upWindow {
+  .upWindow1 {
     padding-top: 7%;
   }
   .istorijaBelarusiZagolovok1 {
@@ -700,9 +712,7 @@ svg {
     font-size: 15px;
   }
   .text1 {
-    margin-right: 20px;
-    margin-left: 20px;
-    font-size: 15px;
+    font-size: 17px;
   }
   .text2 {
     margin-right: 20px;
