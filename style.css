@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+.searhContent ul a {
+  text-decoration: none;
+}
 .belaFlag {
   width: 100%;
   margin-top: 0;
@@ -50,9 +53,8 @@ html {
   background-color: #414141;
 }
 .imgFromSearh {
-  width: 98%;
-  margin: 1%;
-  margin-top: 30px;
+  display: block;
+  width: 100%;
 }
 .searhContent li {
   list-style-type: none;
@@ -115,8 +117,9 @@ html {
   position: fixed;
   background-color: rgb(27, 27, 27);
   width: 100%;
-  height: 70px;
+  padding: 2vh;
   z-index: 1;
+  text-align: center;
 }
 .upWindow {
   padding-top: 0.5%;
@@ -144,10 +147,27 @@ html {
   padding-top: 1%;
   padding-bottom: 1%;
   text-transform: uppercase;
-  background: #000;
+  background: #3d57ca;
   color: #fff;
   mix-blend-mode: multiply;
   text-align: center;
+}
+
+.upWind {
+  text-align: center;
+  height: 100vh;
+  background-image: url("assets/backgroundMinska2.jpg");
+  background-size: cover;
+}
+.OblastGerb {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+.dv1 {
+  background-color: #b4b4b4;
+  margin-top: 50%;
 }
 .text2 {
   color: white;
@@ -175,7 +195,8 @@ html {
   text-align: center;
   padding: 1%;
   padding-top: 0.5%;
-  font-size: 25px;
+  font-size: 30px;
+  margin: 0;
 }
 .istorijaBelarusiZagolovok {
   color: white;
@@ -188,7 +209,8 @@ html {
   background-color: rgb(83, 47, 0);
   text-align: center;
   padding: 1%;
-  font-size: 30px;
+  font-size: 40px;
+  margin: 0;
 }
 .belGerb {
   width: 80px;
@@ -278,6 +300,7 @@ svg {
   background-color: rgb(27, 27, 27);
   padding: 2%;
   font-size: 25px;
+  margin: 0;
 }
 .textWindowText1 {
   color: white;
@@ -382,32 +405,30 @@ svg {
 }
 
 .returnInMain {
-  position: fixed;
   text-decoration: none;
-  margin-left: 1%;
+
   font-size: 25px;
-  border-radius: 5px;
-  background-color: rgb(83, 47, 0);
+
+  background-color: rgb(85, 85, 85);
   color: white;
   padding: 1%;
   transition: 1s;
 }
 .returnInMain:hover {
-  background-color: rgb(6, 68, 0);
+  background-color: rgb(63, 63, 63);
 }
 .returnInStart {
-  position: fixed;
   text-decoration: none;
-  right: 1%;
+
   font-size: 25px;
-  border-radius: 5px;
-  background-color: rgb(83, 47, 0);
+  margin-left: 10px;
+  background-color: rgb(85, 85, 85);
   color: white;
   padding: 1%;
   transition: 1s;
 }
 .returnInStart:hover {
-  background-color: rgb(6, 68, 0);
+  background-color: rgb(63, 63, 63);
 }
 @media screen and (max-width: 1200px) {
   .upWindow2 {
@@ -748,7 +769,7 @@ svg {
     font-size: 15px;
   }
   .text1 {
-    font-size: 17px;
+    font-size: 21px;
   }
   .text2 {
     margin-right: 20px;
